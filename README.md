@@ -1,2 +1,2 @@
-# Statics_learing_methods
+# statistical_learing_methods
 学习统计学习方法并参考别人代码实现算法
