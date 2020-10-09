@@ -90,7 +90,7 @@ def perceptron(dataArr, labelArr, iter=50):
             #在书的公式中写的是>0，实际上如果=0，说明改点在超平面上，也是不正确的
             if -1 * yi * (w * xi.T + b) >= 0:
                 #对于误分类样本，进行梯度下降，更新w和b
-                w = w + h *  yi * xi
+                w = w + h * yi * xi
                 b = b + h * yi
         #打印训练进度
         print('Round %d:%d training' % (k, iter))
